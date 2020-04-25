@@ -38,6 +38,7 @@ class Form {
     this.restart.mousePressed(()=>{
       player.updateCount(0);
       game.update(0);
+      Player.updateCarsAtEnd(0);
 
     });
 
